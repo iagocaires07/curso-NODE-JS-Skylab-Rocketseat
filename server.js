@@ -17,7 +17,7 @@ mongoose.connect(
 // FAZENDO A BUSCA DOS ARQUIVOS NOS DIRETÓRIOS
 requireDir('./src/models');
 
-// ROTAS
+//ROTAS
 app.use('/api', require('./src/routes'));
 
 // DEFININDO UMA PORTA PARA A APLICAÇÃO OUVIR
